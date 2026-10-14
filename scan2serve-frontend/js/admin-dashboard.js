@@ -12,7 +12,9 @@ Built against the current Scan2Serve backend
    CONFIG
 ======================================================= */
 
-const API_BASE_URL = "https://p01--scan2serve-backend--ttjpyrf6rh7d.code.run";
+
+const API_BASE_URL = "https://scan2servee.onrender.com";
+
 
 /* =======================================================
    STORAGE KEYS
