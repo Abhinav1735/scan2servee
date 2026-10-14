@@ -506,9 +506,14 @@ async function publicApiRequest(endpoint, options = {}) {
 
   try {
     response = await fetch(`${API_BASE_URL}${endpoint}`, requestOptions);
-  } catch {
-    throw new Error("Unable to connect to Scan2Serve backend.");
-  }
+ 
+} catch (error) {
+    console.error("Scan2Serve fetch failed:", error);
+    throw new Error(
+        `Backend request failed: ${error.message || "Network error"}`
+    );
+}
+
 
   let data = null;
 
