@@ -8,7 +8,7 @@
    BACKEND
 ========================================================= */
 
-const BACKEND_URL = "https://p01--scan2serve-backend--ttjpyrf6rh7d.code.run";
+const BACKEND_URL = "https://scan2servee.onrender.com";
 
 /* =========================================================
    STATE
